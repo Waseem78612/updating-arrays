@@ -1,7 +1,0 @@
-name = "updating-arrays"
-main = "src/index.js"
-compatibility_date = "2026-02-06"
-
-[pages]
-branch = "main"
-directory = "./dist"
