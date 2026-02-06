@@ -1,7 +1,7 @@
 {
-	    "name": "updating-arrays",
-	    "compatibility_date": "2026-02-06",
-	    "assets": {
-	      "directory": "./dist"
-	    }
-	  }
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "updating-arrays",
+  "main": "src/index.js",
+  "compatibility_date": "2026-02-06",
+  "pages_build_output_dir": "./dist"
+}
