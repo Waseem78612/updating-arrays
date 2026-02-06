@@ -1,7 +1,13 @@
 name = "updating-arrays"
-
 compatibility_date = "2026-02-06"
 
+# Add your account ID
+account_id = "your-account-id-here"
+
 [pages]
-branch = "main"
 directory = "./dist"
+
+# Environment variables
+[vars]
+CLOUDFLARE_API_TOKEN = "curl "https://api.cloudflare.com/client/v4/user/tokens/verify" \
+-H "Authorization: Bearer et0FBSzYTWYQIINt1R9muF9bUAlw7uSUuUkwCJyi""
